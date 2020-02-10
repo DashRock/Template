@@ -37,6 +37,7 @@ li {
     z-index:10;
     top:1em;
     left:1em;
+    transition:all 1000ms ease-in;
     }
 
 .bar {
@@ -52,7 +53,6 @@ li {
 .hidden-nav > .hamB > .bar:hover,
 .hidden-nav > .hamB > .barA:hover {
     transition: all 500ms ease-in;
-    transform: rotateZ(180deg);
     background-color:#4398ed;
     filter:drop-shadow(0.05rem 0.05rem 0.05rem #38f091);
     
@@ -64,10 +64,12 @@ li {
 
 .hidden-nav > #hamB2:hover { 
     background-color:#35f5af;
+    transform: rotateZ(-180deg);
 }
 
 .hidden-nav > #hamB1:hover {
     background-color:#f59445;
+    transform: rotateZ(180deg);
 }
 
 .barA {
@@ -210,12 +212,61 @@ aside {
     display:none;
     max-width:400px;
     height:100%;
+    margin-left:-400px;
     max-height:86%;
     border: 0.2em solid #eee;
     background-color:#7e7eb3;
     box-shadow:0 0 0 0.2vw #eeeeee;
+    
     z-index:10;
     }
+
+    @keyframes entry {
+
+        0% {
+            height:0px;
+        }
+
+        25% {
+            height:25%;
+        }
+
+        50% {
+            height:50%;
+        }
+
+        75% {
+            height:75%;
+        }
+
+        100% {
+            height:100%;
+        }
+    }
+
+    @keyframes exit {
+
+        0% {
+            height:0100%;
+        }
+
+        25% {
+            height:75%;
+        }
+
+        50% {
+            height:50%;
+        }
+
+        75% {
+            height:25%;
+        }
+
+        100% {
+            height:0px;
+        }
+    }
+
 
 div, nav {
     position:relative;
