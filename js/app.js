@@ -56,7 +56,7 @@ function openContact(){
 
 function openSpecials(){
     
-    specs.style.display = "block";
+    specs.style.display = "flex";
     cForm.style.display = "none";
     evnt.style.display = "none";
     staff.style.display = "none";

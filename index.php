@@ -87,9 +87,16 @@
 
 
 <div class="special-deals" id="specials">
-
+<div class="dwkz" id="dwkzBrand">
+    <h1>dashWoorkZ IT</h1>
+    <quote>Linux Driven To Succeed</quote>
+    <h2><a href="https://dashwoorkz.ca"></a></h2>
+    <h3>Phone: 604-347-8698</h3>
+</div>
 <div class="current" id="currentSpec"></div>
 <div class="current1" id="currentSpec1"></div>
+<div class="consult" id="freeConsult"></div>
+
 
 </div>
 <div class="events-list" id="events">

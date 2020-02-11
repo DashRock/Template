@@ -450,7 +450,7 @@ nav {
     margin:0 auto;
     height:80px;
     width:240px;
-  /*  animation:spinRight 5000ms ease infinite; */
+    animation:spinRight 7000ms 1500ms infinite ease ;
 }
 .current:before {
     content:'DNS Registration $19.99/YR';
@@ -483,8 +483,8 @@ nav {
     margin:0 auto;
     height:80px;
     width:240px;
-  /*  animation:spinLeft 5000ms 500ms ease infinite;
-    animation-direction:reverse; */
+    animation:spinLeft 7000ms 500ms infinite ease ;
+    animation-direction:reverse; 
 }
 .current1:before {
     content:'Web Development $35/HR';
@@ -512,10 +512,10 @@ nav {
 
 @keyframes spinLeft {
     0% {transform:rotateY(0deg)}
-    25% {transform:rotateY(90deg)}
-    50% {transform:rotateY(180deg)}
-    75% {transform:rotateY(270deg)}
-    100% {transform:rotateY(360deg)}
+    25% {transform:rotateY(-90deg)}
+    50% {transform:rotateY(-180deg)}
+    75% {transform:rotateY(-270deg)}
+    100% {transform:rotateY(-360deg)}
 }
 
 @keyframes spinRight {
@@ -524,6 +524,69 @@ nav {
     50% {transform:rotateY(180deg)}
     75% {transform:rotateY(270deg)}
     100% {transform:rotateY(360deg)}
+}
+
+.consult {
+    position:relative;
+    width:280px;
+    height:100px;
+    border:0.4vw inset #2d42ff;
+    background-color:#ffbc78;
+    font-size:1.5vw;
+    line-height:2vw;
+    font-weight:600;
+    margin:0 auto;
+    font-family:righteous;
+    letter-spacing:0.1vw;
+    text-align:center;
+    padding:0.5vw 1vw 1.5vw;
+    -webkit-text-fill-color:#583aff;
+    -webkit-text-stroke:0.05vw #ff2d38;
+    transform:translateY(40%);
+}
+
+.consult:before {
+    content:'"FREE CONSULTATION"';
+}
+
+.special-deals {
+    position:relative;
+    padding:0 0.25vw 1vw 0.25vw;
+    width:95%;
+    height:485px;
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    border:0.1vw inset #2d42ff;
+    background-image:linear-gradient(rgba(134,255,235, 0.4),rgba(106,232,224, 0.4)), url('../imgs/brand-01.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-origin:border-box;
+    background-clip:border-box;
+    background-position:center center;
+    background-attachment: local;
+}
+
+.dwkz {
+    position:relative;
+    padding:0.5vw;
+    width:300px;
+    height:110px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:0.2vw inset;
+    transform:translateY(-24%);
+    border:0.4vw inset #2d42ff;
+    background-color:#ffbc78;
+    font-weight:600;
+    margin:0 auto;
+    font-family:righteous;
+    letter-spacing:0.1vw;
+    text-align:center;
+    -webkit-text-fill-color:#583aff;
+    -webkit-text-stroke:0.05vw #ff2d38;
+    
 }
 
     /* End Specials Content */
