@@ -17,7 +17,9 @@
 </head>
 <body>
 <div class="container-wrapper" id="mainWrapper">
-<span class="hidden-nav" id="hideNav"><div class="hamB" id="hamB1">
+
+<span class="hidden-nav" id="hideNav">
+<div class="hamB" id="hamB1">
 <div class="bar" id="bar-1"></div>
 <div class="bar" id="bar-2"></div>
 <div class="bar" id="bar-3"></div>
