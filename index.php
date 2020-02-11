@@ -89,6 +89,7 @@
 <div class="special-deals" id="specials">
 
 <div class="current" id="currentSpec"></div>
+<div class="current1" id="currentSpec1"></div>
 
 </div>
 <div class="events-list" id="events">
