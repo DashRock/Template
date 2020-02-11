@@ -86,9 +86,19 @@
 </div>
 
 
-<div class="special-deals" id="specials"></div>
-<div class="events-list" id="events"></div>
-<div class="staff-list" id="staff"></div>
+<div class="special-deals" id="specials">
+
+<div class="current" id="currentSpec"></div>
+
+</div>
+<div class="events-list" id="events">
+<div class="current-events" id="currentEvents"></div>
+
+</div>
+<div class="staff-list" id="staff">
+
+<div class="lead-staff" id="leadStaff"></div>
+</div>
 </aside>
 <div class="container" id="main-container">
 
