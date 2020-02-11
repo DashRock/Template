@@ -40,11 +40,53 @@
 <aside class="aside-nav" id="navHide">
 <h1 class="side-nav-title"></h1>
 <nav class="side-nav" id="sideNav">
-<button class="side-nav-btn" id="btn-1">
-<button class="side-nav-btn" id="btn-2">
-<button class="side-nav-btn" id="btn-3">
-<button class="side-nav-btn" id="btn-4">
+<button class="side-nav-btn" id="side-btn-1">
+<button class="side-nav-btn" id="side-btn-2">
+<button class="side-nav-btn" id="side-btn-3">
+<button class="side-nav-btn" id="side-btn-4">
 </nav>
+
+<div class="contact-form" id="cForm">
+<h1></h1>
+<form class="form">
+
+<div class="field">
+<input type="text" autocomplete="off" id="fname" value="" required />
+<label for="fname" class="label-fname">
+<span class="content-fname" name="fname"></span>
+</label>
+</div>
+
+<div class="field">
+<input type="text" autocomplete="off" id="lname" value="" required />
+<label for="lname" class="label-lname">
+<span class="content-lname" name="lname"></span>
+</label>
+</div>
+
+<div class="field">
+<input type="email" autocomplete="off" id="email" value="" required />
+<label for="email" class="label-email">
+<span class="content-email" name="email"></span>
+</label>
+</div>
+
+<div class="field">
+<input type="text" autocomplete="off" id="company" value="" required />
+<label for="company" class="label-company">
+<span class="content-company" name="company"></span>
+</label>
+</div>
+<nav class="btn-bar">
+<button class="btn" id="form-btn-1"></button>
+</nav>
+</form>
+</div>
+
+
+<div class="special-deals" id="specials"></div>
+<div class="events-list" id="events"></div>
+<div class="staff-list" id="staff"></div>
 </aside>
 <div class="container" id="main-container">
 

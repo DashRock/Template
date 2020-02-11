@@ -215,9 +215,8 @@ aside {
     margin-left:-400px;
     max-height:86%;
     border: 0.2em solid #eee;
-    background-color:#7e7eb3;
+    background-color:#8fcfe6;
     box-shadow:0 0 0 0.2vw #eeeeee;
-    
     z-index:10;
     }
 
@@ -351,18 +350,18 @@ nav {
     content:"About";
     }
 
-.aside-nav #btn-1:before {
+.aside-nav #side-btn-1:before {
     content:"Contact";
     }
 
-.aside-nav #btn-2:before {
+.aside-nav #side-btn-2:before {
     content:"Specials";
     }
 
-.aside-nav #btn-3:before {
+.aside-nav #side-btn-3:before {
     content:"Events";
     }
 
-.aside-nav #btn-4:before {
+.aside-nav #side-btn-4:before {
     content:"Staff";
     }
