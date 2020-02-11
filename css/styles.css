@@ -126,7 +126,7 @@ header, footer, .container {
     }
 
 header, footer {
-    max-height:7vw;
+    max-height:8vw;
     }
 
 header {text-align:center;}
@@ -148,7 +148,7 @@ header {text-align:center;}
     }
 
 .container {
-    height:86vw;
+    height:84vw;
     }
 
 .content-container {
@@ -207,7 +207,7 @@ header {text-align:center;}
     display:none;
     }
 
-aside {
+aside#navHide {
     position:relative;
     display:none;
     max-width:400px;

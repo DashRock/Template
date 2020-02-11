@@ -8,11 +8,23 @@
     height:30vw;
     max-height:100%;
     padding:1vw;
+    display:none;
     justify-content:center;
     text-align:center;
-    display:block;
     transform:translateY(17.5%);
     margin:0 auto;
+    opacity:0;
+    animation:expose 1000ms ease;
+    animation-fill-mode:forwards;
+}
+
+@keyframes expose {
+    0% {opacity:0;}
+    25% {opacity:0.25;}
+    50% {opacity:0.5;}
+    75% {opacity:0.75;}
+    100% {opacity:1.0;}
+
 }
 
 .contact-form h1 {
@@ -82,6 +94,7 @@ form {
    height:inherit;
    padding:1vw;
    border:0.3vw inset #ad42ff;
+   background-color:rgba(143,207,230, 0.4);
 }
 
 form .field {
