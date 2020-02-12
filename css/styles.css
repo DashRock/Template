@@ -450,7 +450,11 @@ nav {
     margin:0 auto;
     height:80px;
     width:240px;
-    animation:spinRight 9000ms 3500ms infinite ease ;
+    animation:spinRight 5000ms 2500ms infinite ease ;
+    -webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 .current:before {
     content:'DNS Registration $19.99/YR';
@@ -483,8 +487,12 @@ nav {
     margin:0 auto;
     height:80px;
     width:240px;
-    animation:spinLeft 7000ms 1500ms infinite ease ;
+    animation:spinLeft 6000ms infinite ease ;
     animation-direction:reverse; 
+    -webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 .current1:before {
     content:'Web Development $35/HR';
@@ -512,10 +520,10 @@ nav {
 
 @keyframes spinLeft {
     0% {transform:rotateY(0deg)}
-    25% {transform:rotateY(-90deg)}
-    50% {transform:rotateY(-180deg)}
-    75% {transform:rotateY(-270deg)}
-    100% {transform:rotateY(-360deg)}
+    25% {transform:rotateY(90deg)}
+    50% {transform:rotateY(180deg)}
+    75% {transform:rotateY(270deg)}
+    100% {transform:rotateY(360deg)}
 }
 
 @keyframes spinRight {
