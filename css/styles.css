@@ -450,7 +450,7 @@ nav {
     margin:0 auto;
     height:80px;
     width:240px;
-    animation:spinRight 7000ms 1500ms infinite ease ;
+    animation:spinRight 9000ms 3500ms infinite ease ;
 }
 .current:before {
     content:'DNS Registration $19.99/YR';
@@ -483,7 +483,7 @@ nav {
     margin:0 auto;
     height:80px;
     width:240px;
-    animation:spinLeft 7000ms 500ms infinite ease ;
+    animation:spinLeft 7000ms 1500ms infinite ease ;
     animation-direction:reverse; 
 }
 .current1:before {
