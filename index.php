@@ -3,9 +3,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>dashWoorkZ IT</title>
-	
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,500i,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
@@ -42,13 +42,13 @@
 <aside class="aside-nav" id="navHide">
 <h1 class="side-nav-title"></h1>
 <nav class="side-nav" id="sideNav">
-<button class="side-nav-btn" id="side-btn-1">
-<button class="side-nav-btn" id="side-btn-2">
-<button class="side-nav-btn" id="side-btn-3">
-<button class="side-nav-btn" id="side-btn-4">
+<button onclick="openService('cForm')" class="side-nav-btn" id="side-btn-1">
+<button onclick="openService('specials')" class="side-nav-btn" id="side-btn-2">
+<button onclick="openService('events')" class="side-nav-btn" id="side-btn-3">
+<button onclick="openService('staff')" class="side-nav-btn" id="side-btn-4">
 </nav>
 
-<div class="contact-form" id="cForm">
+<div class="service contact-form" id="cForm">
 <h1></h1>
 <form class="form">
 
@@ -85,8 +85,8 @@
 </form>
 </div>
 
-
-<div class="special-deals" id="specials">
+<div class="service special-deals" id="specials">
+    <div class="deals">
 <div class="dwkz" id="dwkzBrand">
     <h1>dashWoorkZ IT</h1>
     <quote>Linux Driven To Succeed</quote>
@@ -96,23 +96,46 @@
 <div class="current" id="currentSpec"></div>
 <div class="current1" id="currentSpec1"></div>
 <div class="consult" id="freeConsult"></div>
-
-
 </div>
-<div class="events-list" id="events">
+</div>
+
+<div class="service events-list" id="events">
 <div class="current-events" id="currentEvents"></div>
+</div>
+
+<div class="service staff-list" id="staff">
+<div class="lead-staff" id="leadStaff">
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+        <h1 class="flip-title">Sole-Proprietor</h1>
+      <img src="imgs/DL_brand.jpg" alt="Dash LaLonde">
+    </div>
+    
+    <div class="flip-card-back">
+      <h1>Dash LaLonde</h1>
+      <p>Web Develper</p>
+      <p>Full Stack</p>
+    </div>
+  </div>
+</div> 
 
 </div>
-<div class="staff-list" id="staff">
 
-<div class="lead-staff" id="leadStaff"></div>
-</div>
+
 </aside>
+
 <div class="container" id="main-container">
 
 <div class="content-container" id="mainContent">
-<div class="content-brand" id="brand"></div>
+
 <div class="content-billboard" id="billboard"></div>
+<div class="content-brand" id="brand">
+
+
+</div>
 </div>
 <div class="content" id="content-box-1"></div>
 <div class="content" id="content-box-2"></div>
