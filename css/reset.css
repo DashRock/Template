@@ -355,7 +355,7 @@ header.socmed-list-title h1 {
 	height:12.5vw;
 	margin-left:5vw;
 	position:relative;
-	padding:1.125vw 0 0 .9375vw;
+	padding:2.5vw 0 0 .9375vw;
 }
 
 .soc-med .content h1 {
@@ -374,32 +374,35 @@ header.socmed-list-title h1 {
 
 .social a:before,
 .social a:after {
-	width:5vw;
+	
 	height:12.5vw;
 	position:absolute;
 	text-indent:0;
-	padding-top:5.625vw;
+	padding-top:4vw;
 	padding-left:1.5625vw;
 	display:block;
 	font-family:"Genericons";
 	font-size:1.875vw;
-	color:#fff;
+    color:#fff;
+    
 }
 
 .social a:after {
+   
+}
+
+.social a:after {
+    width:6.8vw;
 	font-size:3vw;
 	padding-left:1.25vw;
 	padding-top:5vw;
-	margin-left:5.3125vw;
+    margin-left:5.3125vw;
+    transform:translate(-18%, -11%);
 }
 
-.hscs a:before,
-.hscs a:after {
-	content:'\f403';
-}
-
-.hscs a:after {
-	background-color:#ff0000;
+.social a:before {
+    width:4vw;
+    transform:translate(-21%, 0%);
 }
 
 .youtube a:before,
