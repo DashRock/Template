@@ -10,7 +10,7 @@
 	
 	<li class="soc-med">
 		<div class="social youtube">
-			<a href="" target="_blank">Youtube</a>
+			<a href="https://youtube.com/user/TechGuyWeb/" target="_blank">Youtube</a>
 		</div>
 		<div class="content">
 			<h1>Youtube</h1>
@@ -19,7 +19,7 @@
 	</li>
 	<li class="soc-med">
 		<div class="social twitter">
-			<a href="" target="_blank">Twitter</a>
+			<a href="https://twitter.com/MaximeBernier" target="_blank">Twitter</a>
 		</div>
 		<div class="content">
 			<h1>Twitter</h1>

@@ -315,19 +315,23 @@ header.socmed-list-title h1 {
 /* Tab Content */
 
 .accordion {
-	background-color:#333;
+	background-color:#afaae0;
 	width:100%;
 	min-width:47vw;
 	display:block;
 	list-style-type:none;
 	overflow:hidden;
 	height:10vw;
-	font-size:0;
+    font-size:0;
+    border:0.2vw dotted #371ce8;
+    filter:drop-shadow(-0.5vw -0.5vw -0.5vw #9812ad);
 }
 
 .soc-med {
 	display:inline-block;
-	background-color:#444;
+    background-color:#f2ccad;
+    -webkit-text-fill-color:#e3c19d;
+    -webkit-text-stroke:0.05vw #a85b12;
 	border-right:#333 solid 0.1vw;
 	width:5vw;
 	height:10vw;
@@ -344,6 +348,7 @@ header.socmed-list-title h1 {
 .soc-med:hover .social a:before {
 	margin-left:-6.25vw;
 }
+
 
 .soc-med:hover .social a:after {
 	margin-left:-.3125vw;
@@ -388,10 +393,6 @@ header.socmed-list-title h1 {
 }
 
 .social a:after {
-   
-}
-
-.social a:after {
     width:6.8vw;
 	font-size:3vw;
 	padding-left:1.25vw;
@@ -403,16 +404,30 @@ header.socmed-list-title h1 {
 .social a:before {
     width:4vw;
     transform:translate(-21%, 0%);
+    -webkit-text-fill-color:#e3c19d;
+    -webkit-text-stroke:0.05vw #a85b12;
+    filter:drop-shadow(-0.5vw -0.5vw -0.5vw #e3830d);
+    
 }
 
 .youtube a:before,
 .youtube a:after {
-	content:'\f213';
+    content:'\f213';
+    
 }
 
 .youtube a:after {
 	background-color:#ff0000;
 }
+.youtube a:hover:after {
+    content:"\f213";
+    -webkit-text-fill-color:#d15547;
+    -webkit-text-stroke:0.05vw #cc190c;
+    background-color:#edbdbb;
+    filter:drop-shadow(-0.5vw -0.5vw -0.5vw #9812ad);
+  
+}
+
 
 .twitter a:before,
 .twitter a:after {
@@ -421,6 +436,14 @@ header.socmed-list-title h1 {
 
 .twitter a:after {
 	background-color:#6dc5dd;
+}
+.twitter a:hover:after {
+    content:"\f202";
+    -webkit-text-fill-color:#049fff;
+    -webkit-text-stroke:0.05vw #091df0;
+    background-color:#baeaff;
+    filter:drop-shadow(-0.5vw -0.5vw -0.5vw #9812ad);
+  
 }
 
 
@@ -432,6 +455,15 @@ header.socmed-list-title h1 {
 .facebook a:after {
 	background-color:#3b5998;
 }
+
+.facebook a:hover:after {
+    content:"\f204";
+    background-color:#56bde6;
+    -webkit-text-fill-color:#19ebdd;
+    -webkit-text-stroke:0.05vwd#1748e8;
+    filter:drop-shadow(-0.5vw -0.5vw -0.5vw #9812ad);
+  
+}
 .linkedin a:before,
 .linkedin a:after {
 	content:'\f208';
@@ -439,6 +471,15 @@ header.socmed-list-title h1 {
 
 .linkedin a:after {
 	background-color:#00a9cd;
+}
+
+.linkedin a:hover:after {
+    content:"\f208";
+    -webkit-text-fill-color:#0d84a8;
+    -webkit-text-stroke:0.05vw #9009ab;
+    background-color:#16e0ff;
+    filter:drop-shadow(-0.5vw -0.5vw -0.5vw #9812ad);
+  
 }
 
 .instagram a:before,
@@ -450,6 +491,14 @@ header.socmed-list-title h1 {
 	background-color:#6dc993;
 }
 
+.instagram a:hover:after {
+    content:"\f215";
+    -webkit-text-fill-color:#a30822;
+    -webkit-text-stroke:0.05vw #d96d2a;
+    background-color:#f2b3be;
+    filter:drop-shadow(-0.5vw -0.5vw -0.5vw #9812ad);
+   }
+
 .github a:before,
 .github a:after {
 	content:'\f200';
@@ -458,5 +507,13 @@ header.socmed-list-title h1 {
 .github a:after {
 	background-color:#6e5494;
 }
+
+.github a:hover:after {
+    content:"\f200";
+    -webkit-text-fill-color:#740eb8;
+    -webkit-text-stroke:0.05vw #091df0;
+    background-color:#e1c6f7;
+    filter:drop-shadow(-0.5vw -0.5vw -0.5vw #9812ad);
+   }
 
 /* End Genericons CSS */
