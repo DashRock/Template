@@ -1,20 +1,7 @@
 
 
-.container-wrapper {
-    position:relative;
-    width:100%;
-    height:100%;
-    }
- 
-.hidden-nav {
-    position:absolute;
-    z-index:10;
-    top:1em;
-    left:1em;
-    transition:all 1000ms ease-in;
-    }
 
-.bar {
+.hamburger {
     position:relative;
     background-color:#d320d9;
     width:100%;
@@ -23,30 +10,32 @@
     }
 
 
-.hidden-nav > .hamB:hover,
-.hidden-nav > .hamB > .bar:hover,
-.hidden-nav > .hamB > .barA:hover {
+.hamburger .hamB:hover,
+.hamburger .hamB .hamb-1-btn:hover,
+.hamburger .hamB .hamb-2-btn:hover {
     transition: all 500ms ease-in;
-    background-color:#4398ed;
     filter:drop-shadow(0.05rem 0.05rem 0.05rem #38f091);
-    
 }
 
-.hidden-nav > #hamB2 > .barA:hover{
+.hamburger .hamB .hamb-1-btn:hover {
+    background-color:#4398ed;
+}
+.hamburger > #hamB-2 > .hamb-2-btn:hover{
     background-color:#f55535;
 }
 
-.hidden-nav > #hamB2:hover { 
+.hamburger > #hamB-2:hover { 
     background-color:#35f5af;
     transform: rotateZ(-180deg);
 }
 
-.hidden-nav > #hamB1:hover {
+.hamburger > #hamB-1:hover {
     background-color:#f59445;
     transform: rotateZ(180deg);
 }
 
-.barA {
+.hamb-1-btn,
+.hamb-2-btn {
     position:relative;
     background-color:#1fcbff;
     width:100%;
@@ -54,17 +43,17 @@
     filter:drop-shadow(0.05rem 0.05rem 0.05rem #a91fff);
     }  
 
-#bar-1 {
+#hambBtn1-1 {
     border: 0.05vw solid #000;
     border-top-left-radius:0.4vw;
     border-top-right-radius:0.4vw;
     }
 
-#bar-2 {
+#hambBtn1-2 {
     border: 0.05vw solid #000;
     }
 
-#bar-3 {
+#hambBtn1-3 {
     border: 0.05vw solid #000;
     border-bottom-left-radius:0.4vw;
     border-bottom-right-radius:0.4vw;
@@ -79,17 +68,17 @@
     border-radius:0.5rem;
     }
 
-#hamB1 {
+#hamB-1 {
     display:flex;
     text-shadow:0 0 0.2vw #ffffcc, 0 0 0.2vw #7d7dcc,0 0 0.2vw #000033;
     }
 
-#hamB2 {
+#hamB-2 {
     display:none;
     text-shadow:0 0 0.2vw #ff621f, 0 0 0.2vw #ffd21f,0 0 0.2vw #a91fff;
     }
 
-.hidden-nav:hover {
+.hamburger:hover {
     transform:rotate(180deg);
     cursor:pointer;
    }

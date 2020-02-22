@@ -27,6 +27,37 @@ body {
     align-self: center;
  }
 
+ @font-face {
+    font-family: 'Genericons';
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot");
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot") format("truetype");
+  }
+  
+
+ .container-wrapper {
+    position:relative;
+    width:inherit;
+    max-width:100%;
+    height:100%;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: ;
+
+    }
+
+
+.main-wrapper .main-rapper-billboard {
+    
+    position:absolute;
+    z-index:10;
+    top:1em;
+    left:1em;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    transition:all 1000ms ease-in;
+    }
+ 
 h1 {
     font-size:24px;
 }
@@ -140,7 +171,8 @@ select {
 
 button,[type=button],
 [type=reset],
-[type=submit] {
+[type=submit],
+[class="header-nav-btn hamb-2-btn hamb-1-btn"] {
     -webkit-appearance:button;
 }
 
@@ -191,3 +223,217 @@ li {
 .w3-hover-shadow:hover {
     box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
 }
+
+.w3-col,
+.w3-half,
+.w3-third,
+.w3-twothird,
+.w3-threequarter,
+.w3-quarter {
+    float:left;width:100%;
+}
+.w3-col.s1 {
+    width:8.33333%;
+}
+.w3-col.s2 {
+    width:16.66666%;
+}
+.w3-col.s3 {
+    width:24.99999%;
+}
+.w3-col.s4 {
+    width:33.33333%;
+}
+.w3-col.s5 {
+    width:41.66666%;
+} .w3-col.s6 {
+    width:49.99999%;
+}
+.w3-col.s7 {
+    width:58.33333%;
+} .w3-col.s8 {
+    width:66.66666%;
+}
+.w3-col.s9 {
+    width:74.99999%;
+} 
+.w3-col.s10 {
+    width:83.33333%;
+}
+.w3-col.s11 {
+    width:91.66666%;
+}
+.w3-col.s12 {
+    width:99.99999%;
+}
+
+/*  Social Media Slider */
+
+
+.container {
+	margin:3.125vw auto;
+	width:90%;
+}
+
+.soc-med-list {
+    position:relative;
+    margin:3.125vw auto;
+	width:100%;
+    /* display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    width:inherit;
+    max-width:100%; */
+
+}
+
+    header h1 {
+	color:#fff;
+	margin-bottom:0.625vw;
+	text-align:center;
+}
+
+/* Tab Content */
+
+.accordion {
+	background-color:#333;
+	width:100%;
+	min-width:50vw;
+	display:block;
+	list-style-type:none;
+	overflow:hidden;
+	height:12.5vw;
+	font-size:0;
+}
+
+.soc-med {
+	display:inline-block;
+	background-color:#444;
+	border-right:#333 solid 0.1vw;
+	width:5vw;
+	height:12.5vw;
+	overflow:hidden;
+	position:relative;
+	margin:0;
+	transition: all 0.5s ease-in-out 0.1s;
+}
+
+.soc-med:hover {
+	width:28.125vw;
+}
+
+.soc-med:hover .social a:before {
+	margin-left:-6.25vw;
+}
+
+.soc-med:hover .social a:after {
+	margin-left:-.3125vw;
+}
+
+.soc-med .content {
+	background-color:#fff;
+	width:22.5vw;
+	height:12.5vw;
+	margin-left:5vw;
+	position:relative;
+	padding:3.125vw 0 0 .9375vw;
+}
+
+.soc-med .content h1 {
+	font-size:2.5vw;
+	margin-bottom:.625vw;
+}
+
+.soc-med .content p {
+	font-size:1.25vw;
+	line-height:2vw;
+	padding-right:1.875vw;
+}
+
+/* Tab Genericons CSS */
+
+.social a:before,
+.social a:after {
+	width:5vw;
+	height:12.5vw;
+	position:absolute;
+	text-indent:0;
+	padding-top:5.625vw;
+	padding-left:1.5625vw;
+	display:block;
+	font-family:"Genericons";
+	font-size:1.875vw;
+	color:#fff;
+}
+
+.social a:after {
+	font-size:3vw;
+	padding-left:1.25vw;
+	padding-top:5vw;
+	margin-left:5.3125vw;
+}
+
+.hscs a:before,
+.hscs a:after {
+	content:'\f403';
+}
+
+.hscs a:after {
+	background-color:#ff0000;
+}
+
+.youtube a:before,
+.youtube a:after {
+	content:'\f213';
+}
+
+.youtube a:after {
+	background-color:#ff0000;
+}
+
+.twitter a:before,
+.twitter a:after {
+	content:'\f202';
+}
+
+.twitter a:after {
+	background-color:#6dc5dd;
+}
+
+
+.facebook a:before,
+.facebook a:after {
+	content:'\f204';
+}
+
+.facebook a:after {
+	background-color:#3b5998;
+}
+.linkedin a:before,
+.linkedin a:after {
+	content:'\f208';
+}
+
+.linkedin a:after {
+	background-color:#00a9cd;
+}
+
+.instagram a:before,
+.instagram a:after {
+	content:'\f215';
+}
+
+.instagram a:after {
+	background-color:#6dc993;
+}
+
+.github a:before,
+.github a:after {
+	content:'\f200';
+}
+
+.github a:after {
+	background-color:#6e5494;
+}
+
+/* End Genericons CSS */
