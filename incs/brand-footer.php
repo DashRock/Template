@@ -13,7 +13,7 @@
 		</div>
 		<div class="content">
 			<h1>Youtube</h1>
-			<p>Follow on Youtube for up-to-date videos on current topics.</p>
+			<p>TraverseyMedia for up-to-date videos on Web Development.</p>
 		</div>
 	</li>
 	<li class="soc-med">
@@ -22,7 +22,7 @@
 		</div>
 		<div class="content">
 			<h1>Twitter</h1>
-			<p>Follow on Twitter for up-to-date videos on current topics.</p>
+			<p>Peoples' Party of Canada for up-to-date videos by Maxime Bernier.</p>
 		</div>
 	</li>
 	<li class="soc-med">
@@ -31,7 +31,7 @@
 		</div>
 		<div class="content">
 			<h1>Facebook</h1>
-			<p>Follow on Facebook for up-to-date information on current topics.</p>
+			<p>DashRock for tipson Web Development.</p>
 		</div>
 	</li>
 	<li class="soc-med">
