@@ -1,9 +1,10 @@
 </div> <!-- End Main Wrapper -->
-<footer class="container" id="footer">
+<footer class="brand-footer-contact" id="brandFooterContact">
 
-<div class="container soc-med-list" id="socMedList">
-	<header>
-	    <h1>Follow On Social Media</h1>
+<div class="quotes" id="quotesList"></div>
+<div class="soc-med-list" id="socMedList">
+	<header class="socmed-list-title">
+	    <h1 class="footer-socmed-title"></h1>
 	</header>
 	<ul class="accordion">
 	
@@ -31,7 +32,7 @@
 		</div>
 		<div class="content">
 			<h1>Facebook</h1>
-			<p>DashRock for tipson Web Development.</p>
+			<p><strong>Holistic Soul Care</strong><bold>Rapid Eye Technology, Reiki&reg; &amp; IET</bold></p>
 		</div>
 	</li>
 	<li class="soc-med">
@@ -58,15 +59,12 @@
 		</div>
 		<div class="content">
 			<h1>GitHub</h1>
-			<p>Follow on GitHub for up-to-date project code.</p>
+			<p>DashRock on GitHub for tips on Web Development.</p>
 		</div>
 	</li>
-	
 	</ul>
 	</div>
 
+	<div class="time-clock" id="timeClock"></div>
+	
 </footer>
-<script src="../js/app.js"></script>
-</body>
-
-</html>

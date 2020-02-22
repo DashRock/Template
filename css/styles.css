@@ -82,22 +82,37 @@
     transform:rotate(180deg);
     cursor:pointer;
    }
-
-header, footer, .container {
-    position:relative;
+footer.brand-footer-contact {
+    position:relative; 
+    top:0;
+    left:0;
+    width:90vw;
     max-width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    height:15vw;
+    max-height:15vw;
+    text-align:center;
+    margin:0 auto;
+    transform:translate(0, -30%);
     }
 
-header, footer {
-    max-height:8vw;
+header.socmed-list-title,  {
+    position:relative;
+    width:90vw;
+    max-width:100%;
+    max-height:10vw;
+    text-align:center;
+    margin:0 auto;
     }
-    
-header {border-radius: 0.5vw 0.5vw 0 0;}
-footer {border-radius: 0 0 0.5vw 0.5vw;}
+  
+header.socmed-list-title {border-radius: 0.5vw 0.5vw 0 0;}
+footer.brand-footer-contact {border-radius: 0 0 0.5vw 0.5vw;}
 
-header {text-align:center;}
-
-.hdr-title {
+h1.hdr-title {
     position:relative;
     font-size: 2em;
     font-weight:700;
@@ -109,14 +124,25 @@ header {text-align:center;}
     transform:translateY(-10%);
     }
 
-.hdr-title::after {
+h1.hdr-title::after {
     content:"dashWoorkz IT";
     -webkit-text-fill-color:#9ed5f0;
     -webkit-text-stroke:0.05vw #2c4ef5;
     }
+h1.footer-socmed-title::after {
+    content:"Social Media Influencers";
+    -webkit-text-fill-color:#9ed5f0;
+    -webkit-text-stroke:0.05vw #2c4ef5;
+}
 
-.container {
+.body-container-body {
     height:84vw;
+    position:relative;
+    }
+.body-container-header,
+.body-container-footer {
+    height:15vw;
+    position:relative;
     }
 
 .content-container {
@@ -148,7 +174,7 @@ header {text-align:center;}
     max-width:inherit;
     }
 
-.content-brand, .content-billboard, footer, header {
+.content-brand, .content-billboard, header.footer-socmed-title {
     /* border: 0.2em solid #eee;
     background-color:#7d7db3; */
     border: 0.2em solid #178dd6;

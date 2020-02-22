@@ -7,6 +7,10 @@ html{
 
 *,*:before,*:after {
     box-sizing:inherit;
+    margin:0;
+    padding:0;
+    border:0;
+    }
 }
 
 body {
@@ -121,11 +125,6 @@ section {
     padding:0;
     margin:0;
     outline:none;
-    }
-
-body {
-    
-    
     }
 
 img {
@@ -270,27 +269,47 @@ li {
 /*  Social Media Slider */
 
 
-.container {
-	margin:3.125vw auto;
-	width:90%;
-}
-
 .soc-med-list {
-    position:relative;
-    margin:3.125vw auto;
-	width:100%;
-    /* display:flex;
-    flex-direction:row;
-    flex-wrap:nowrap;
-    width:inherit;
-    max-width:100%; */
-
+	margin: 0 auto;
+    width:60vw;
+    max-width:100%;
+    height:auto;
+    position:absolute;
+    order:2;
+    
+    
 }
 
-    header h1 {
+.time-clock, .quotes {
+    width:12vw;
+    height:7.5vw;
+     border:0.2vw inset #72ffde;
+    border-radius:0.5vw;
+    z-index:5;
+    position:relative;
+}
+.time-clock {
+    order: 3px;;
+    top:8%;
+    left:-16%;
+    background-image:linear-gradient(to top, rgba(255,98,111, 0.2), rgba(98,255,229, 0.2), rgba(187,255,98, 0.2));
+   
+}
+.quotes {
+    
+    order: 1;
+    top:8%;
+    right:-16%;
+    background-image:linear-gradient(to bottom, rgba(255,98,111, 0.2), rgba(98,255,229, 0.2), rgba(187,255,98, 0.2));
+   
+}
+
+header.socmed-list-title h1 {
 	color:#fff;
 	margin-bottom:0.625vw;
-	text-align:center;
+    text-align:center;
+    width:inherit;
+    max-width:100%;
 }
 
 /* Tab Content */
@@ -298,11 +317,11 @@ li {
 .accordion {
 	background-color:#333;
 	width:100%;
-	min-width:50vw;
+	min-width:47vw;
 	display:block;
 	list-style-type:none;
 	overflow:hidden;
-	height:12.5vw;
+	height:10vw;
 	font-size:0;
 }
 
@@ -311,7 +330,7 @@ li {
 	background-color:#444;
 	border-right:#333 solid 0.1vw;
 	width:5vw;
-	height:12.5vw;
+	height:10vw;
 	overflow:hidden;
 	position:relative;
 	margin:0;
@@ -336,17 +355,18 @@ li {
 	height:12.5vw;
 	margin-left:5vw;
 	position:relative;
-	padding:3.125vw 0 0 .9375vw;
+	padding:1.125vw 0 0 .9375vw;
 }
 
 .soc-med .content h1 {
-	font-size:2.5vw;
+    font-size:1.2vw;
+    line-height:1.4vw;
 	margin-bottom:.625vw;
 }
 
 .soc-med .content p {
-	font-size:1.25vw;
-	line-height:2vw;
+	font-size:1vw;
+	line-height:1.4vw;
 	padding-right:1.875vw;
 }
 

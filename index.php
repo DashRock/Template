@@ -15,9 +15,12 @@
 </head>
 <body>
 
-  <div class="container body-div-header" id="bodyDivHeader"> <?php include 'incs/brand-header.php'; ?> </div>
-  <div class="container body-div-body" id="bodyDivBody"> <?php include 'incs/brand-body.php'; ?> </div>
-  <div class="container body-div-footer" id="bodyDivFooter"> <?php include 'incs/brand-footer.php'; ?> </div>
+  <div class="body-container-header body-div-header" id="bodyDivHeader"> <?php include 'incs/brand-header.php'; ?> </div>
+  <div class="body-container-body body-div-body" id="bodyDivBody"> <?php include 'incs/brand-body.php'; ?> </div>
+  <div class="body-container-footer body-div-footer" id="bodyDivFooter"> <?php include 'incs/brand-footer.php'; ?> </div>
 
+  <script src="../js/app.js"></script>
+</body>
 
+</html>
 
