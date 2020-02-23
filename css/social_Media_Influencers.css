@@ -1,14 +1,15 @@
 .soc-med-list {
-	margin: 0 auto;
+	margin: 5vw auto;
     width:60vw;
     max-width:100%;
     height:auto;
     position:relative;
-    order:2;
-   
+    background-image:url("../imgs/social_Media_Influencers_BackgroundImage_41O.jpg");
+    background-position:top;
+    background-repeat:no-repeat;
+    background-clip: padding-box;
+      
  }
-
-
 
 header.footer-socmed-title {
     /* border: 0.2em solid #eee;
@@ -24,6 +25,7 @@ h1.footer-socmed-title::after {
     content:"Social Media Influencers";
     -webkit-text-fill-color:#9ed5f0;
     -webkit-text-stroke:0.05vw #2c4ef5;
+    font-weight:700;
 }
 
 header.socmed-list-title h1 {
@@ -48,7 +50,7 @@ header.socmed-list-title {border-radius: 0.5vw 0.5vw 0 0;}
 /* Tab Content */
 
 .accordion {
-	background-color:#afaae0;
+	/* background-color:#afaae0; */
 	width:100%;
 	min-width:47vw;
 	display:block;
@@ -58,8 +60,21 @@ header.socmed-list-title {border-radius: 0.5vw 0.5vw 0 0;}
     font-size:0;
     border:0.2vw dotted #371ce8;
     filter:drop-shadow(-0.5vw -0.5vw -0.5vw #9812ad);
+    padding-left:10.5%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-image: url("../imgs/social_Media_Influencers_BackgroundImage_accordion_41O.jpg");
+    background-clip: padding-box;
+
 }
 
+.accordion > .soc-med > .youtube ~ .soc-med-inf p {
+    background-image:url('../images/traverseyMedia_logo.jpg');
+    background-repeat:repeat;
+    background-position:center;
+    background-size:100% 100%;
+}
 .soc-med {
 	display:inline-block;
     background-color:#f2ccad;
@@ -131,12 +146,12 @@ header.socmed-list-title {border-radius: 0.5vw 0.5vw 0 0;}
 	padding-left:1.25vw;
 	padding-top:5vw;
     margin-left:5.3125vw;
-    transform:translate(-18%, -11%);
+    transform:translate(-0, -11%);
 }
 
 .social a:before {
     width:4vw;
-    transform:translate(-21%, 0%);
+    transform:translate(0%, 0%);
     -webkit-text-fill-color:#e3c19d;
     -webkit-text-stroke:0.05vw #a85b12;
     filter:drop-shadow(-0.5vw -0.5vw -0.5vw #e3830d);
@@ -178,7 +193,6 @@ header.socmed-list-title {border-radius: 0.5vw 0.5vw 0 0;}
     filter:drop-shadow(-0.5vw -0.5vw -0.5vw #9812ad);
   
 }
-
 
 .facebook a:before,
 .facebook a:after {
