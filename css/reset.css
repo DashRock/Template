@@ -38,7 +38,7 @@ body {
   }
   
 
- .container-wrapper {
+ /* .container-wrapper {
     position:relative;
     width:inherit;
     max-width:100%;
@@ -50,7 +50,7 @@ body {
     }
 
 
-.main-wrapper .main-rapper-billboard {
+.main-wrapper .main-wrapper-billboard {
     
     position:absolute;
     z-index:10;
@@ -60,7 +60,7 @@ body {
     flex-direction:row;
     flex-wrap:wrap;
     transition:all 1000ms ease-in;
-    }
+    } */
  
 h1 {
     font-size:24px;
@@ -269,18 +269,16 @@ li {
 /*  Social Media Slider */
 
 
-.soc-med-list {
+/* .soc-med-list {
 	margin: 0 auto;
     width:60vw;
     max-width:100%;
     height:auto;
     position:absolute;
     order:2;
-    
-    
-}
+} */
 
-.time-clock, .quotes {
+/* .time-clock, .quotes {
     width:12vw;
     height:7.5vw;
      border:0.2vw inset #72ffde;
@@ -310,11 +308,11 @@ header.socmed-list-title h1 {
     text-align:center;
     width:inherit;
     max-width:100%;
-}
+} */
 
 /* Tab Content */
 
-.accordion {
+/* .accordion {
 	background-color:#afaae0;
 	width:100%;
 	min-width:47vw;
@@ -325,9 +323,9 @@ header.socmed-list-title h1 {
     font-size:0;
     border:0.2vw dotted #371ce8;
     filter:drop-shadow(-0.5vw -0.5vw -0.5vw #9812ad);
-}
+} */
 
-.soc-med {
+/* .soc-med {
 	display:inline-block;
     background-color:#f2ccad;
     -webkit-text-fill-color:#e3c19d;
@@ -339,9 +337,9 @@ header.socmed-list-title h1 {
 	position:relative;
 	margin:0;
 	transition: all 0.5s ease-in-out 0.1s;
-}
+} */
 
-.soc-med:hover {
+/* .soc-med:hover {
 	width:28.125vw;
 }
 
@@ -373,11 +371,11 @@ header.socmed-list-title h1 {
 	font-size:1vw;
 	line-height:1.4vw;
 	padding-right:1.875vw;
-}
+} */
 
 /* Tab Genericons CSS */
 
-.social a:before,
+/* .social a:before,
 .social a:after {
 	
 	height:12.5vw;
@@ -408,9 +406,9 @@ header.socmed-list-title h1 {
     -webkit-text-stroke:0.05vw #a85b12;
     filter:drop-shadow(-0.5vw -0.5vw -0.5vw #e3830d);
     
-}
+} */
 
-.youtube a:before,
+/* .youtube a:before,
 .youtube a:after {
     content:'\f213';
     
@@ -514,6 +512,6 @@ header.socmed-list-title h1 {
     -webkit-text-stroke:0.05vw #091df0;
     background-color:#e1c6f7;
     filter:drop-shadow(-0.5vw -0.5vw -0.5vw #9812ad);
-   }
+   } */
 
 /* End Genericons CSS */
