@@ -435,7 +435,6 @@ nav {
  .current-events:before {
     content:'';
     position:absolute;
-    
     left:0;
     height:100%;
     width:51%;
@@ -455,9 +454,8 @@ nav {
     background-color:#29f56a;
     top:3rem;
 } */
-.current-events:before { top:0;background-color:#f7af4b;}
-{
-    background-color:#29f56a;
+.current-events:before { 
+    background-color:#f7af4b;
     top:3rem;
 }
 .current-events:after { top:0;background-color:#f7af4b;}
