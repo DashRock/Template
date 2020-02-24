@@ -1,7 +1,7 @@
 
 
 
-<div class="container-wrapper" id="mainWrapper">
+
     <div class="main-wrapper-billboard" id="mainWrapperBillBoard">
         <span class="hamburger" id="hamBurger">
             <div class="hamB" id="hamB-1">

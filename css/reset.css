@@ -47,19 +47,7 @@ body {
     border: 0.3vw inset #26afff;
  }
     
- /* .container-wrapper {
-    position:relative;
-    width:inherit;
-    max-width:100%;
-    height:100%;
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: ;
-
-    }
-
-
-.main-wrapper .main-wrapper-billboard {
+ .main-wrapper .main-wrapper-billboard {
     
     position:absolute;
     z-index:10;

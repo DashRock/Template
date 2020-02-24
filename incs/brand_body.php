@@ -1,9 +1,9 @@
 
 
   <div class="container about-wrapper" id="aboutWrapper">
-  <aside class="container brand-about-cover" id="brandAboutCover">
-    
-  </aside> <!-- End Brand About -->
+    <aside class="container brand-about-cover" id="brandAboutCover">
+      
+    </aside> <!-- End Brand About -->
 
   <aside class="brand-about" id="brandAbout">
     <h1 class="brand-about-title" id="brandAboutTitle"></h1>
