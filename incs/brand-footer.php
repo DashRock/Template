@@ -1,6 +1,6 @@
 </div> <!-- End Main Wrapper -->
 <footer class="brand-footer-contact" id="brandFooterContact">
-
+<div class="time-clock" id="timeClock"></div>
 <div class="quotes" id="quotesList"></div>
 <div class="soc-med-list" id="socMedList">
         <header class="socmed-list-title">
@@ -12,7 +12,7 @@
             <div class="social youtube">
                 <a href="https://youtube.com/user/TechGuyWeb/" target="_blank">Youtube</a>
             </div>
-            <div class="soc-med-inf">
+            <div class="soc-med-inf traversey">
                 <h1>Youtube</h1>
                 <p>TraverseyMedia for up-to-date videos on Web Development.</p>
             </div>
@@ -65,6 +65,6 @@
         </ul>
         </div>
 
-	<div class="time-clock" id="timeClock"></div>
+	
 	
 </footer>

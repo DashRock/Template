@@ -104,23 +104,6 @@
     transform:rotate(180deg);
     cursor:pointer;
    }
-/* footer.brand-footer-contact {
-    position:relative; 
-    top:0;
-    left:0;
-    width:90vw;
-    max-width:100%;
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    align-items: center;
-    height:15vw;
-    max-height:15vw;
-    text-align:center;
-    margin:0 auto;
-    transform:translate(0, -30%);
-    } */
 
 header.socmed-list-title,  {
     position:relative;
@@ -327,8 +310,6 @@ nav {
     border: 0.2em solid #9ed5f0;
     background-color:#eee;
     background-image:linear-gradient(45deg, rgba(33,114,214, 0.1), rgba(68,122,196, 0.1) );
-    /* border: 0.2rem outset #ddd;
-    background-color:#ffeeee; */
     box-shadow:0 0 0 0.2rem #282bf2;
     padding:0.1rem;
     -webkit-text-fill-color:#9ed5f0;
@@ -359,7 +340,7 @@ nav {
     font-weight:700;
     letter-spacing:0.1rem;
     padding:0.2vw;
-    /* text-shadow:0 0.025rem 0.025rem #222f3d, 0 0.025rem 0.025rem #5c7282, 0 0.025rem 0.025rem #a1bcc9; */
+
     }
 
 .side-nav-btn {
@@ -370,7 +351,7 @@ nav {
     letter-spacing:0.05rem;
     letter-spacing:0.1rem;
     padding:0.2vw;
-    /* text-shadow:0 0.025rem 0.025rem #bdb948, 0 0.025rem 0.025rem #8f6889, 0 0.025rem 0.025rem #184457; */
+
     }
 
 .hdr-nav #btn-1::before {
@@ -472,10 +453,7 @@ nav {
     width:50%;
     transform:skew(0deg, -6deg);
 }
-/* .lead-staff:before {
-    background-color:#29f56a;
-    top:3rem;
-} */
+
 .current-events:before { 
     background-color:#f7af4b;
     top:3rem;
@@ -661,4 +639,501 @@ nav {
     
 }
 
+    /* Contact Form */
+
+
+.contact-form {
+    position:relative;
+    width:20rem;
+    max-width:100%;
+    height:35vw;
+    max-height:100%;
+    padding:1vw;
+    display:none;
+    justify-content:center;
+    text-align:center;
+    transform:translateY(11.5%);
+    margin:0 auto;
+    opacity:0;
+    animation:expose 1000ms ease;
+    animation-fill-mode:forwards;
+}
+
+@keyframes expose {
+    0% {opacity:0;}
+    25% {opacity:0.25;}
+    50% {opacity:0.5;}
+    75% {opacity:0.75;}
+    100% {opacity:1.0;}
+
+}
+
+.contact-form h1 {
+    -webkit-text-fill-color:#ff8235;
+    -webkit-text-stroke:0.05vw #c42dff;
+    font-size:1.5vw;
+    line-height:1.5vw;
+    font-weight:700;
+    letter-spacing:0.1vw;
+    text-shadow: 0 0.1vw 0.1vw #000, 0.1vw 0.1vw 0.1vw #b922ff;
+    transform:translateY(-5%);
+}
+
+.contact-form h1::after {
+    content:"Contact Us";
+}
+
+nav.btn-bar {
+    display:flex;
+    justify-content:center;
+    align-content:center;
+}
+
+.btn {
+    position:relative;
+    width:9vw;
+    height:3vw;
+    background-color:#33fff8;
+    border:0.2vw inset #2466ff;
+    color:#fff;
+    font-size:1.25rem;
+    line-height:1.25rem;
+    font-weight:700;
+    letter-spacing:0.1vw;
+    text-shadow: 0 0.1vw 0.1vw #000, 0.1vw 0.1vw 0.1vw #b922ff;
+    transition: background-color 500ms, border 500ms, color 500ms, text-shadow 500ms, font-family 500ms, border-radius 300ms;
+    border-radius:0.5vw;
+    transform:translateX(0%);
+}
+
+.btn:hover {
+    position:relative;
+    width:9vw;
+    height:3vw;
+    background-color:#ff9225;
+    border:0.2vw inset #2fff63;
+    color:#000;
+    font-size:1.25vw;
+    line-height:1.25vw;
+    font-weight:700;
+    font-family:Righteous, sans-serif;
+    letter-spacing:0.1vw;
+    text-shadow: 0 0.1vw 0.1vw #fff, 0.1vw 0.1vw 0.1vw #2391ff;
+    border-radius:0.8vw;
+}
+
+#form-btn-1:after {
+    content:"Send Data";
+}
+
+form {
+    position:relative;
+   width:inherit;
+   max-width:100%;
+   position:absolute;
+   transform:translateY(5%);
+   left:0;
+   height:auto;
+   padding:1vw;
+   border:0.3vw inset #ad42ff;
+   background-color:rgba(143,207,230, 0.4);
+}
+
+form .field {
+    position:relative;
+    width:100%;
+    height:4vw;
+    margin-bottom:1.5vw;
+    overflow:hidden;
+   
+}
+
+.field input {
+    width:100%;
+    height:100%;
+    color:#595f6e;
+    padding-top:2.3vw;
+    border:none;
+    outline:none;
+    
+ }
+
+.field label {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:100%;
+    pointer-events:none;
+    border-bottom: 0.1vw groove #000;
+}
+
+.field label:after {
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-0.1vw;
+    height:100%;
+    width:100%;
+     border-bottom:0.3vw inset #2930ff;
+    transform:translate(-100%);
+    transition: all 300ms ease;
+}
+
+/* First Name */
+.content-fname {
+    position:absolute;
+    bottom:1.2vw;
+    left:0;
+    transition:all 300ms ease;
+   
+}
+
+.field input:focus + .label-fname .content-fname,
+.field input:valid + .label-fname .content-fname {
+    transform: translate(125%,-95%);
+    font-size:0.8vw;
+    padding-left:0.25vw;
+    -webkit-text-fill-color:#ff8235;
+    -webkit-text-stroke:0.05vw #c42dff;
+}
+
+.field input:focus + .label-fname::after,
+.field input:valid + .label-fname::after {
+    transform:translate(0%);
+}
+.content-fname:after {
+     content:"First Name:";
+     font-size:1vw;
+     font-weight:700;
+     font-family:Poppins, sans-serif;
+ }
+
+/* Last Name */
+.content-lname {
+    position:absolute;
+    bottom:1.2vw;
+    left:0;
+    transition:all 300ms ease;
+}
+
+.field input:focus + .label-lname .content-lname,
+.field input:valid + .label-lname .content-lname {
+    transform: translate(125%,-95%);
+    font-size:0.8vw;
+    padding-left:0.25vw;
+    -webkit-text-fill-color:#ff8235;
+    -webkit-text-stroke:0.05vw #c42dff;
+}
+
+.field input:focus + .label-lname::after,
+.field input:valid + .label-lname::after {
+    transform:translate(0%);
+}
+.content-lname:after {
+    content:"Last Name:";
+    font-size:1vw;
+    font-weight:700;
+    font-family:Poppins, sans-serif;
+ }
+
+/* Email Address */
+.content-email {
+    position:absolute;
+    bottom:1.2vw;
+    left:0;
+    transition:all 300ms ease;
+}
+
+.field input:focus + .label-email .content-email,
+.field input:valid + .label-email .content-email {
+    transform: translate(275%,-95%);
+    font-size:0.8vw;
+    padding-left:0.25vw;
+    -webkit-text-fill-color:#ff8235;
+    -webkit-text-stroke:0.05vw #c42dff;
+}
+
+.field input:focus + .label-email::after,
+.field input:valid + .label-email::after {
+    transform:translate(0%);
+}
+.content-email:after {
+    content:"Email:";
+    font-size:1vw;
+    font-weight:700;
+    font-family:Poppins, sans-serif;
+}
+
+/* Company Name */
+.content-company {
+    position:absolute;
+    bottom:1.2vw;
+    left:0;
+    transition:all 300ms ease;
+
+}
+
+.field input:focus + .label-company .content-company,
+.field input:valid + .label-company .content-company {
+    transform: translate(140%,-95%);
+    font-size:0.8vw;
+    padding-left:0.25vw;
+    -webkit-text-fill-color:#ff8235;
+    -webkit-text-stroke:0.05vw #c42dff;
+    
+}
+
+.field input:focus + .label-company::after,
+.field input:valid + .label-company::after {
+    transform:translate(0%);
+}
+.content-company:after {
+    content:"Company:";
+     font-size:1vw;
+    font-family:Poppins, sans-serif;
+    font-weight:700;
+ }
+
+ /* End Contact Form */
+
+ /* Flip Card */
+
+ /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+ .flip-card {
+    background-color: transparent;
+    width: 22.75vw;
+    height: 22.75vw;
+  /*   perspective: 1000px; Remove this if you don't want the 3D effect */
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+        
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 5000ms ;
+    transform-style: preserve-3d;
+ 
+    
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card .flip-card-inner {
+    animation: turnA 5000ms 500ms ease infinite;
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+
+    background-color: #bbb;
+    -webkit-text-fill-color:#25c8fa;
+    -webkit-text-stroke:0.05vw #2c4ef5;
+
+    
+    letter-spacing:0.1vw;
+    font-weight:700;
+    text-align:center;
+  }
+
+  .flip-title {
+      position:absolute;
+      background-color:transparent !important;
+      transform:translateX(32%);
+  }
+
+  /* Style the back side */
+  .flip-card-back {
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    
+  } 
+
+  .flip-card-front img {
+
+    width:inherit;
+    height:inherit;
+  }
+
+  @keyframes turnA {
+
+    0% {
+
+        transform: rotateY(0deg);
+    }
+
+    40% {
+
+        transform: rotateY(180deg);
+    }
+
+    60% {
+
+        transform: rotateY(180deg);
+    }
+
+    80% {
+
+        transform: rotateY(360deg);
+    }
+
+    100% {
+
+        transform: rotateY(360deg);
+    }
+
+  }
+
+ /* End Flip Card */
+
     /* End Specials Content */
+
+    /* @media (max-width: 680px) {
+        .soc-med-list {
+            width:95%;
+            order:3;
+        }
+        
+        .accordiaon {
+            width:100%;
+            min-width: 21.875vw;
+        }
+        
+        .tab .content p{
+            font-size: 2.5vw;
+            line-height:3vw;
+        }
+    }
+
+    @media (max-width: 950px) {
+        .container {
+            width:70%;
+        }
+        
+        .tab {
+            display:block;
+            width:100%;
+            border-bottom: 0.1875vw #333  solid;
+        }
+        
+        .accordion {
+            display:block;
+            min-width:28.125vw;
+            height:auto;
+        }
+        
+        .tab .content{
+            width:85%;
+        }
+        
+        .tab .content p{
+            font-size: 2.1vw;
+            line-height:2.5vw;
+        }
+        
+        .tab:hover {
+            width:100%
+        }
+        
+    } */
+
+    @media screen and (max-width: 316px) {
+
+
+
+        .footer-socmed-title h1 {
+            -webkit-text-fill-color:#5a52f0;
+            -webkit-text-stroke:0.05vw #1919e0;
+            margin-bottom:0.625vw;
+            text-align:center;
+            width:inherit;
+            max-width:100%;
+           
+        }
+    
+        h1.footer-socmed-title::after {
+            content:"Social Media Influencers";
+            -webkit-text-fill-color:#2e1dcc !important; 
+            -webkit-text-stroke:0.05vw #5a52f0 !important;
+            font-weight:700;
+            font-size:1vw;
+        }
+
+        .accordion {
+            width:70%;
+            margin:0 auto;
+        }
+    
+       .soc-med {
+            margin-bottom:1.5vw;
+        }
+
+        .social {
+            height:100%;
+        }
+
+        .soc-med .soc-med-inf h1 {
+            font-size:5vw;
+        }
+
+        .brand-footer-contact {
+            display:flex;
+            width:25vw;
+            flex-direction:column;
+            flex-wrap:wrap;
+
+        }
+
+        .time-clock, .quotes {
+            width:25vw;
+            height:7.5vw;
+            border:0.3vw inset #72ffde;
+            border-radius:1vw;
+            z-index:5;
+            position:relative;
+            margin-top:1.75vw;
+            filter:drop-shadow(0.5rem 0.5rem 0.5rem rgba(224,171,121 0.4));
+        }
+        .time-clock {
+            order: 2;
+            top:8%;
+            left:0%;
+            background-image:linear-gradient(45deg, rgba(255,98,111, 0.4), rgba(98,255,229, 0.4), rgba(187,255,98, 0.4));
+           
+        }
+        .quotes {
+            
+            order: 1;
+            top:8%;
+            right:0%;
+            background-image:linear-gradient(-45deg, rgba(255,98,111, 0.4), rgba(98,255,229, 0.4), rgba(187,255,98, 0.4));
+           
+        }
+    
+        .soc-med-list {
+            width:70vw;
+            order:3;
+        }
+    
+    }
