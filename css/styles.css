@@ -1,14 +1,23 @@
 
- .container-wrapper {
+.body-container-footer,
+.body-container-header,
+.body-container-body  {
     position:relative;
     width:inherit;
     max-width:100%;
-    height:100%;
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: ;
+}
 
-    }
+.body-container-body {
+    height:60vh;
+}
+
+.body-container-header {
+    height:15vh;
+}
+
+.body-container-footer {
+    height:25vh;
+}
 
 
 .main-wrapper .main-rapper-billboard {
@@ -1007,60 +1016,8 @@ form .field {
 
  /* End Flip Card */
 
-    /* End Specials Content */
-
-    /* @media (max-width: 680px) {
-        .soc-med-list {
-            width:95%;
-            order:3;
-        }
-        
-        .accordiaon {
-            width:100%;
-            min-width: 21.875vw;
-        }
-        
-        .tab .content p{
-            font-size: 2.5vw;
-            line-height:3vw;
-        }
-    }
-
-    @media (max-width: 950px) {
-        .container {
-            width:70%;
-        }
-        
-        .tab {
-            display:block;
-            width:100%;
-            border-bottom: 0.1875vw #333  solid;
-        }
-        
-        .accordion {
-            display:block;
-            min-width:28.125vw;
-            height:auto;
-        }
-        
-        .tab .content{
-            width:85%;
-        }
-        
-        .tab .content p{
-            font-size: 2.1vw;
-            line-height:2.5vw;
-        }
-        
-        .tab:hover {
-            width:100%
-        }
-        
-    } */
-
+ 
     @media screen and (max-width: 316px) {
-
-
 
         .footer-socmed-title h1 {
             -webkit-text-fill-color:#5a52f0;

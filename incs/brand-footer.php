@@ -1,4 +1,4 @@
-</div> <!-- End Main Wrapper -->
+
 <footer class="brand-footer-contact" id="brandFooterContact">
 <div class="time-clock" id="timeClock"></div>
 <div class="quotes" id="quotesList"></div>
@@ -64,7 +64,5 @@
         </li>
         </ul>
         </div>
-
-	
 	
 </footer>

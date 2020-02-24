@@ -4,18 +4,18 @@ footer.brand-footer-contact {
     max-width:100%;
     display:flex;
     flex-direction:row;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
+    flex-wrap:no-wrap;
+    justify-content: space-around;
     align-items: center;
-    height:30vw;
+    height:inherit;
     max-height:30vw;
     text-align:center;
     margin:0 auto;
-    transform:translate(0, -30%);
+    transform:translate(0, 0%);
     }
 
 .time-clock, .quotes {
-    width:20vw;
+    width:15vw;
     height:7.5vw;
      border:0.2vw inset #72ffde;
     border-radius:0.5vw;
@@ -23,10 +23,10 @@ footer.brand-footer-contact {
     position:relative;
 }
 .time-clock {
-    order: 2;
+    order: 3;
     top:8%;
     left:0%;
-    background-image:linear-gradient(to top, rgba(255,98,111, 0.2), rgba(98,255,229, 0.2), rgba(187,255,98, 0.2));
+    background-image:linear-gradient(-135deg, rgba(255,98,111, 0.4), rgba(98,255,229, 0.4), rgba(187,255,98, 0.4));
    
 }
 .quotes {
@@ -34,7 +34,7 @@ footer.brand-footer-contact {
     order: 1;
     top:8%;
     right:0%;
-    background-image:linear-gradient(to bottom, rgba(255,98,111, 0.2), rgba(98,255,229, 0.2), rgba(187,255,98, 0.2));
+    background-image:linear-gradient(45deg, rgba(255,98,111, 0.4), rgba(98,255,229, 0.4), rgba(187,255,98, 0.4));
    
 }
 
@@ -49,7 +49,7 @@ header.socmed-list-title h1 {
 
 .soc-med-list {
 	margin: 5vw auto;
-    width:60vw;
+    width:55vw;
     max-width:100%;
     height:auto;
     position:relative;
@@ -58,7 +58,7 @@ header.socmed-list-title h1 {
     background-repeat:no-repeat;
     background-clip: padding-box;
     background-size:cover;
-    order:3;
+    order:2;
     border-radius:10%;
     filter:drop-shadow(0.2vw 0.2vw 0.2vw #20a0cf);
       
@@ -316,18 +316,3 @@ header.socmed-list-title {border-radius: 0.5vw 0.5vw 0 0;}
    }
 
 /* End Genericons CSS */
-
-/* @media screen (max-width: 340px) {
-
-    .soc-med > .soc-med-inf h1 {
-        font-size:3vw;
-        line-height:1.4vw;
-        margin-bottom: 0.625vw;
-    }
-    
-    .soc-med .soc-med-inf p {
-        font-size:2vw;
-        line-height:1.2vw;
-        padding-right:1.875vw;
-    }
-} */
