@@ -54,7 +54,7 @@ body {
   }
 
   .traversey  {
-    background-image:url('../../imgs/traverseyMedia_logo.jpg');
+    background-image:url('../../imgs/traverseyMedia_logo_T.jpg');
     background-repeat:no-repeat;
     background-position:right 2% top 2%;
     background-size:10%;
@@ -122,7 +122,7 @@ header.socmed-list-title {border-radius: 0.5vw 0.5vw 0 0;}
 }
 
 .tab .content {
-	background-color:#fff;
+	background-color:#f2e3c2;
 	width:22.5vw;
 	height:15vw;
 	margin-left:5vw;
